@@ -50,7 +50,7 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                3,
+                6,
                 0,
                 0,
                 0,
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 3) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 6) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -228,7 +228,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-      <td>27 Mar 2022, 18:47</td>
+      <td>27 Mar 2022, 21:16</td>
     </tr>
   </tbody>
 </table>
@@ -325,18 +325,18 @@ $(document).ready(function() {
       <tr>
         <td class="tagname"><a href="report-feature_2688106644.html">Test Spartan API with complete CRUD operations</a></td>
 
-        <td      class="passed"    >3</td>
+        <td      class="passed"    >6</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">3</td>
+        <td class="total">6</td>
 
         <td  class="passed"    >1</td>
         <td >0</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="4522096800">4.522</td>
+        <td class="duration" data-value="4620352500">4.620</td>
         <td class="passed">Passed</td>
       </tr>
   </tbody>
@@ -344,18 +344,18 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>3</td>
+      <td>6</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>3</td>
+      <td>6</td>
 
       <td>1</td>
       <td>0</td>
       <td>1</td>
 
-      <td class="duration">4.522</td>
+      <td class="duration">4.620</td>
       <td>1</td>
     </tr>
     <tr>
