@@ -29,11 +29,8 @@ public class SpartanFlowSteps {
                 .when().get();
 
     //    mockSpartanJson.prettyPrint();
-
         Assert.assertEquals(200,mockSpartanJson.statusCode());
-
     }
-
 
     @When("User uses Mock Data to create a Spartan")
     public void userUsesMockDataToCreateASpartan() {
@@ -65,8 +62,6 @@ public class SpartanFlowSteps {
 }
          */
 
-
-
     }
 
     @When("User send a request to Spartan API with ID {int}")
@@ -81,8 +76,8 @@ public class SpartanFlowSteps {
                     .and().pathParam("id", id)
                     .when().get("/api/spartans/{id}");
 
-    //    getResponse.prettyPrint();
         Assert.assertEquals(200,getResponse.statusCode());
+        //    getResponse.prettyPrint();
         /*
         {
     "id": 174,
